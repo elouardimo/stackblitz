@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traducteur Arabe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        textarea, select, button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #output {
+            border: 1px solid #ccc;
+            padding: 10px;
+            min-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Traducteur Arabe</h1>
+    <textarea id="input" rows="4" placeholder="Entrez le texte arabe ici"></textarea>
+    <select id="language">
+        <option value="french">Français</option>
+        <option value="english">Anglais</option>
+    </select>
+    <button onclick="translate()">Traduire</button>
+    <h2>Traduction :</h2>
+    <div id="output"></div>
+    <script src="translator.js"></script>
+</body>
+</html>

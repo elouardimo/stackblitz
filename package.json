@@ -1,0 +1,13 @@
+{
+  "name": "arabic-translator",
+  "version": "1.0.0",
+  "description": "Simple Arabic Translator",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
